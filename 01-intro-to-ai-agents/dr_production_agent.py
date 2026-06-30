@@ -52,7 +52,7 @@ def get_productions(production_type: str = "all") -> list[dict]:
             "studio": "Universal Pictures",
             "location": "Playa El Valle, Samaná",
             "director": "M. Night Shyamalan",
-            "stars": ["Gael García Bernal", "Vicky Krieps"],
+            "stars": ["Gael García Bernal", "Vicky Krieps", "Rufus Sewell"],
             "service_company": "Lantica Studios",
         },
         {
@@ -60,7 +60,7 @@ def get_productions(production_type: str = "all") -> list[dict]:
             "year": 2022,
             "type": "movie",
             "studio": "Paramount Pictures",
-            "location": "Playa Cosón, Samaná",
+            "location": "Monumento Natural Salto De Socoa, Monte Plata",
             "director": "Aaron Nee & Adam Nee",
             "stars": ["Sandra Bullock", "Channing Tatum", "Brad Pitt"],
             "service_company": "Lantica Studios",
@@ -72,7 +72,7 @@ def get_productions(production_type: str = "all") -> list[dict]:
             "studio": "Mandeville Films",
             "location": "Playa Caletón, María Trinidad Sánchez",
             "director": "Jason Moore",
-            "stars": ["Jennifer Lopez", "Josh Duhamel"],
+            "stars": ["Jennifer Lopez", "Josh Duhamel", "Lenny Kravitz"],
             "service_company": "Lantica Studios",
         },
         {
@@ -81,7 +81,7 @@ def get_productions(production_type: str = "all") -> list[dict]:
             "type": "movie",
             "studio": "Lionsgate / eOne Films",
             "location": "Zona Colonial, Santo Domingo",
-            "director": "Simon Cellan Jones",
+            "director": "Baltazar Kormakur",
             "stars": ["Mark Wahlberg", "Simu Liu"],
             "service_company": "Lantica Studios",
         },
@@ -106,13 +106,13 @@ def get_productions(production_type: str = "all") -> list[dict]:
             "service_company": "Lantica Studios",
         },
         {
-            "title": "Saint X",
-            "year": 2023,
+            "title": "Narco-Saints",
+            "year": 2022,
             "type": "series",
-            "studio": "ABC Signature",
-            "location": "Santo Domingo",
-            "director": "Tanya Hamilton",
-            "stars": ["Alycia Debnam-Carey"],
+            "studio": "Netflix",
+            "location": "Mirador Cachon De La Rubia,Santo Domingo",
+            "director": "Yoon Jong-Bin",
+            "stars": ["Park Hae-soo", "Jo Woo-jin"],
             "service_company": "Lantica Studios",
         },
         {
@@ -125,6 +125,17 @@ def get_productions(production_type: str = "all") -> list[dict]:
             "stars": ["José Coronado", "Álvaro Mel"],
             "service_company": "Lantica Studios",
         },
+
+        {
+            "title": "The Killer",
+            "year": 2023,
+            "type": "movie",
+            "studio": "Netflix",
+            "location": "Ciudad Colonial, Santo Domingo",
+            "director": "David Fincher",
+            "stars": ["Michael Fassbender", "Charlize Theron"],
+            "service_company": "Lantica Studios",
+        }
     ]
 
     if production_type == "all":
